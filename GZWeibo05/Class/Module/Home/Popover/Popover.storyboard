@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Popover View Controller-->
+        <scene sceneID="knF-Nh-BUT">
+            <objects>
+                <viewController storyboardIdentifier="popoverController" id="kEy-N3-94w" customClass="CZPopoverViewController" customModule="GZWeibo05" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="coP-YD-I3O"/>
+                        <viewControllerLayoutGuide type="bottom" id="9bd-V4-RCd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ihK-cg-QqN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popover_background" translatesAutoresizingMaskIntoConstraints="NO" id="G0e-aN-X3X">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eyc-B9-7G2">
+                                <rect key="frame" x="12" y="35" width="576" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="popoverCell" id="vMb-ht-9TC">
+                                        <rect key="frame" x="0.0" y="28" width="576" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vMb-ht-9TC" id="Byz-yV-vwm">
+                                            <rect key="frame" x="0.0" y="0.0" width="576" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G0e-aN-X3X" firstAttribute="leading" secondItem="ihK-cg-QqN" secondAttribute="leading" id="64g-9N-vNm"/>
+                            <constraint firstItem="9bd-V4-RCd" firstAttribute="top" secondItem="eyc-B9-7G2" secondAttribute="bottom" constant="12" id="DVU-JX-Hnu"/>
+                            <constraint firstItem="G0e-aN-X3X" firstAttribute="top" secondItem="coP-YD-I3O" secondAttribute="bottom" id="NJf-D4-QJu"/>
+                            <constraint firstItem="eyc-B9-7G2" firstAttribute="leading" secondItem="ihK-cg-QqN" secondAttribute="leading" constant="12" id="Nf0-si-8gm"/>
+                            <constraint firstItem="eyc-B9-7G2" firstAttribute="top" secondItem="coP-YD-I3O" secondAttribute="bottom" constant="15" id="UgU-40-uuu"/>
+                            <constraint firstAttribute="trailing" secondItem="eyc-B9-7G2" secondAttribute="trailing" constant="12" id="gNv-nX-QyQ"/>
+                            <constraint firstItem="9bd-V4-RCd" firstAttribute="top" secondItem="G0e-aN-X3X" secondAttribute="bottom" id="jft-s3-PsN"/>
+                            <constraint firstAttribute="trailing" secondItem="G0e-aN-X3X" secondAttribute="trailing" id="tXh-Td-Ysx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="eyc-B9-7G2" id="iuj-RF-mqK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ri3-2s-1KR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="247"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="popover_background" width="121" height="49"/>
+    </resources>
+</document>

@@ -1,0 +1,36 @@
+command + 1 
+command + shift + y 弹出控制台
+option + click 快速分屏
+command + 0 隐藏左边
+command + n 新建文件
+command + shift + j 显示当前文件所在的位置
+command + [ 左  ] 右
+command + option + [ 上  ] 下
+command + 上 回到最上
+command + . 停止运行
+command + option + 左 隐藏
+command + option + 右 展开
+
+command + option + shift + 左 隐藏全部
+
+command + control + 上(下) .h .m
+
+command + 3 弹出搜索
+
+
+项目远程仓库: https://github.com/December-XP/swiftweibo05.git
+
+git clone
+
+// 将本地已有的仓库 关联到服务器, 提交代码到服务器
+
+git remote -v // 查看本地git关联的远程服务器的名称
+
+git remote -h 查看帮助
+	[] 可选项
+	<> 必填
+
+// 删除远程仓库
+git remote remove origin
+
+git branch // 查看本地分支

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54A4A5DD5A8B8A293D66266B9B0C7BB6BC5CC495",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54A4A5DD5A8B8A293D66266B9B0C7BB6BC5CC495" : 0,
+    "84C4757491737E339D0A12D1FA2309181DE830C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E34885AE-571E-4930-9CDA-5E13C7830A6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54A4A5DD5A8B8A293D66266B9B0C7BB6BC5CC495" : "swiftweibo05\/",
+    "84C4757491737E339D0A12D1FA2309181DE830C9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GZWeibo05",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GZWeibo05.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/December-XP\/swiftweibo05.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54A4A5DD5A8B8A293D66266B9B0C7BB6BC5CC495"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Where2Go\/swiftsina.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84C4757491737E339D0A12D1FA2309181DE830C9"
+    }
+  ]
+}
